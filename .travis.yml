@@ -1,5 +1,5 @@
 language: objective-c
-script: cd Example && xcodebuild test -workspace BugfenderExample.xcworkspace -scheme BugfenderExample -destination 'platform=iOS Simulator,name=iPhone 6'
+script: cd Example && xcodebuild build -workspace BugfenderExample.xcworkspace -scheme BugfenderExample -destination 'platform=iOS Simulator,name=iPhone 6' && xcodebuild test -workspace BugfenderExample.xcworkspace -scheme BugfenderExample -destination 'platform=iOS Simulator,name=iPhone 6'
 osx_image: xcode8.1
 xcode_workspace: Example/BugfenderExample.xcworkspace
 xcode_scheme: BugfenderExample
