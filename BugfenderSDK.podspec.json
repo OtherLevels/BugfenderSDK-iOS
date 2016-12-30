@@ -17,7 +17,7 @@
   },
   "source": {
     "git": "https://github.com/OtherLevels/BugfenderSDK-iOS",
-    "tag": "0.3.26"
+    "tag": "0.3.26-OL"
   },
   "ios": {
     "vendored_frameworks": "BugfenderSDK.framework",
