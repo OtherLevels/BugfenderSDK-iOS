@@ -16,7 +16,7 @@
     "ios": "6.0"
   },
   "source": {
-    "git": "https://github.com/bugfender/BugfenderSDK-iOS.git",
+    "git": "https://github.com/OtherLevels/BugfenderSDK-iOS",
     "tag": "0.3.26"
   },
   "ios": {
