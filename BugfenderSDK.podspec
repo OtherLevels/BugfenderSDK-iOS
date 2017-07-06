@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
   s.name     = 'BugfenderSDK'
-  s.version  = '1.4.5'
-  s.ios.deployment_target     = '8.0'
+  s.version  = '1.4.5-OL'
+  s.ios.deployment_target     = '6.0'
   s.license  = { :type => 'Commercial', :text => 'See https://bugfender.com/terms-of-service/' }
   s.summary  = 'Bugfender: a mobile remote logger'
   s.description = 'A modern remote logger tailor-made for mobile development.'
@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
   s.social_media_url = 'https://twitter.com/bugfenderapp'
   s.requires_arc = true
   s.source   = {
-    :git => 'https://github.com/bugfender/BugfenderSDK-iOS.git',
+    :git => 'https://github.com/OtherLevels/BugfenderSDK-iOS.git',
     :tag => s.version.to_s
   }
   s.prepare_command = <<-CMD
