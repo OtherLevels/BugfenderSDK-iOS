@@ -18,7 +18,9 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Configure Bugfender with all options enabled
-    [Bugfender enableAllWithToken:@"s5VCpT6z9HaSEe0T8re6nsIk7tXsk23b"]; // Use your own token here in order to see results in your account
+    [Bugfender activateLogger:@"s5VCpT6z9HaSEe0T8re6nsIk7tXsk23b"]; // Use your own token here in order to see results in your account
+    [Bugfender enableUIEventLogging];
+    BFLog(@"Hello world! 🎉");
     return YES;
 }
 
